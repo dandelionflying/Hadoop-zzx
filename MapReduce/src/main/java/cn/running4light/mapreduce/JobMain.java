@@ -23,7 +23,8 @@ public class JobMain extends Configured implements Tool {
     public int run(String[] args) throws Exception {
         // 创建job
         Job job = Job.getInstance(super.getConf(), "wordcount");
-        job.setJar("mapreduce-0.0.1-SNAPSHOT.jar");
+        job.setJarByClass(JobMain.class);
+//        job.setJar("mapreduce-0.0.1-SNAPSHOT.jar");
         // 配置job(八个步骤)
 
         // 1:指定文件的读取方式和读取路径

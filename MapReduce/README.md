@@ -55,7 +55,15 @@ hdfs dfs -put wordCount.txt /wordcount/
 
   - 设置jar包
 
-  `job.setJar("mapreduce-0.0.1-SNAPSHOT.jar");`
+  
+
+  ```java
+  job.setJar("mapreduce-0.0.1-SNAPSHOT.jar");
+  或
+  job.setJarByClass(JobMain.class);
+  ```
+
+  
 
   - 
   - - 运行成功：
