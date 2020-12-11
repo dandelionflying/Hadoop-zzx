@@ -66,7 +66,7 @@ hdfs dfs -put wordCount.txt /wordcount/
   
 
   - 
-  - - 运行成功：
+  - 运行成功：
 
   ```properties
   20/12/11 14:01:03 INFO client.RMProxy: Connecting to ResourceManager at pc-1/192.168.80.131:8032
@@ -181,7 +181,9 @@ hdfs dfs -put wordCount.txt /wordcount/
   - s
   - s
 
+## MapReduce分区
 
+#### 
 
 
 
