@@ -13,3 +13,5 @@ buildNumber.properties
 **/.idea
 **/target/
 **/.mvn
+**/mvnw
+**/mvnw.cmd
