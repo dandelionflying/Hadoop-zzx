@@ -16,7 +16,7 @@ hadoop
 
 上传到HDFS：
 
-```properties
+```shell
 hdfs dfs -mkdir /wordcount/
 hdfs dfs -put wordCount.txt /wordcount/
 ```
@@ -34,7 +34,7 @@ hdfs dfs -put wordCount.txt /wordcount/
 - 集群方式
   - 打包jar，上传，运行
 
-  ```
+  ```shell
   hadoop jar mapreduce-0.0.1-SNAPSHOT.jar cn.running4light.mapreduce.JobMain
   ```
 
@@ -184,6 +184,10 @@ hdfs dfs -put wordCount.txt /wordcount/
 ## MapReduce分区
 
 #### 
+
+
+
+## MapReduce计数器
 
 
 
